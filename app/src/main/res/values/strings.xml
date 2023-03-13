@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">demo app</string>
+    <string-array name="myBall">
+        <item>basketball</item>
+        <item>football</item>
+        <item>baseball</item>
+    </string-array>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:text="what do you like" />
+
+    <CheckBox
+        android:id="@+id/cb_basketball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="basketball" />
+
+    <CheckBox
+        android:id="@+id/cb_football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="football" />
+
+    <CheckBox
+        android:id="@+id/cb_baseball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="baseball" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:text="massage"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rg_ball"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/rd_basketball"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="basketball" />
+
+            <RadioButton
+                android:id="@+id/rd_football"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="football" />
+
+            <RadioButton
+                android:id="@+id/rd_baseball"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="baseball" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/sp_ball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
